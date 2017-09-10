@@ -1,4 +1,4 @@
-import random
+import secrets
 import string
 
-print ''.join(random.choice(string.ascii_uppercase + "9") for _ in range(81))
+print(''.join(secrets.choice(string.ascii_uppercase + "9") for _ in range(81)))
